@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ILLUSTRATION | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+
+            <a href="#" class="logo">
+                PORTFOLIO
+            </a>
+
+            <nav class="nav">
+                <a href="#illustration">ILLUSTRATION</a>
+                <a href="#about">ABOUT</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="page-title" id="illustration">
+            <p class="page-number">01</p>
+
+            <h1>ILLUSTRATION</h1>
+
+            <p class="page-description">
+                イラストレーション作品
+            </p>
+        </section>
+
+
+        <!-- JSで作品を自動生成 -->
+        <section class="gallery" id="gallery"></section>
+
+
+        <section class="about" id="about">
+
+            <p class="section-number">02</p>
+
+            <h2>ABOUT</h2>
+
+            <p>
+                これまでに制作したイラストレーション作品を載せています。<br>
+                キャラクター、世界観、色彩などを意識しながら、
+                一枚の作品として魅力が伝わる表現を目指しています。
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>© 2026 Portfolio</p>
+    </footer>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <button class="lightbox-close" id="lightboxClose">
+            ×
+        </button>
+
+        <img id="lightboxImage" src="" alt="">
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
