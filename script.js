@@ -17,7 +17,7 @@ const works = [
     },
     {
         image: "img/04.jpg",
-        title: "04 「テッド」知人にプレゼントした誕生日イラスト"
+        title: "04 「テッド」（ファンアート）"
     },
     {
         image: "img/05.jpg",
